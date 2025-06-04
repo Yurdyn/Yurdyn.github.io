@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runehill  |  Home</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto+Mono:wght@400;700&display=swap" />
+  <style>
+    body {
+      background-color: #0e0814;
+      color: #fbeaff;
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+    }
+    header {
+      background: #3b0a3d;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 0 10px #ff57bb44;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ff57bb;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fbeaff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #ff9a00;
+    }
+    section {
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+      text-align: center;
+    }
+    .highlight {
+      background: #2b102f;
+      border-left: 5px solid #ff57bb;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      background: #ff57bb;
+      color: #0e0814;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .button-group a:hover {
+      background: #ff9a00;
+      color: #0e0814;
+    }
+    footer {
+      background: #3b0a3d;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #c7b4cc;
+    }
+    .project {
+      background: #1c0d21;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border-left: 4px solid #ff9a00;
+      border-radius: 8px;
+      text-align: left;
+    }
+    .project h3 {
+      color: #ff9a00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Runehill | IT Projects</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/it/">IT Projects</a>
+      <a href="/game/">Game Dev</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Professional IT Projects & Experience</h2>
+    <p>These projects highlight my technical skills in system administration, automation, and network architecture.</p>
+
+    <div class="project">
+      <h3>Multi-Domain Active Directory Lab</h3>
+      <p>Created a full Windows Server lab with parent, child, and separate domain trees, handling DNS, replication, GPOs, and user delegation. Perfect for testing real-world enterprise environments.</p>
+      <p>Environment was populated by script with over 250 unique users to ensure connectivity and functionality</p>
+      <p>Services in this environment included DFS, Linux, and Domain Controller servers, as well as a pfsense router/firewall combo, and a client machine.</p>
+    </div>
+
+    <div class="project">
+      <h3>Security & Forensics</h3>
+      <p>Created hardened servers and kept systems updated to ensure CVE are eliminated or reduced.</p>
+      <p>Used dedicated VMs to practice finding and recovering files while documenting and keeping integrity.</p>
+      <p>Practiced using software and techniques to gain access to systems.</p>
+    </div>
+
+    <div class="project">
+      <h3>Proxmox Home Lab Infrastructure</h3>
+      <p>Deployed Proxmox-based hypervisors running VMs for media servers, game hosts, and FTP—all segmented via VLAN and VPN with Tailscale for secure remote access.</p>
+      <p>I am currently upgrading this project by adding a DMZ to allow direct connection from the internet without VPN usage while maintaining security.</p>
+    </div>
+
+    <div class="project">
+      <h3>Linux & Deployment</h3>
+      <p>Developed Bash and PowerShell scripts to automate server setup, including Docker container orchestration.</p>
+      <p>Began switching Windows 10 clients to Linux before end-of-life of the OS.</p>
+      <p>Deployed a Linux-based ticketing system to simulate an office environment, complete with certificates.</p>
+    </div>
+
+    <div class="project">
+      <h3>Microsoft 365 Suite</h3>
+      <p>Created a simulated environment with a dozen users. Using this environment, I had practical hands-on experience completing tasks such as allocating licenses, changing passwords, and setting up email.</p>
+      <p>Currently I am studying on using Power BI in conjunction with 365 to showcase accurate data models.</p>
+    </div>
+
+    <div class="project">
+      <h3>Portfolio Domain Setup</h3>
+      <p>Configured <i>runehill.com</i> for portfolio hosting, using Cloudflare DNS and HTTPS configuration for privacy and security.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Runehill
+  </footer>
+</body>
+</html>
